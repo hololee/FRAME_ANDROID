@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/noticeArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/rect_line_loading"
+        android:padding="15dp">
+
+
+
+        <ImageView
+            android:id = '@+id/loading'
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

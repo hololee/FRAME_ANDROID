@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="red">#E3302E</color>
+
+    <color name="background">#ffffff</color>
+    <color name="background_card">#ffffff</color>
+    <color name="img_card">#F2F2F2</color>
+    <color name="shortGray">#efefef</color>
+    <color name="textGray">#D3D3D3</color>
+    <color name="midGray">#BCBCBC</color>
+    <color name="moreMidGray">#9E9E9E</color>
+    <color name="mostMidGray">#9B9B9B</color>
+    <color name="moreMidBlack">#565555</color>
+    <color name="midBlack">#494949</color>
+    <color name="darkBlack">#443E3C</color>
+    <color name="moreDarkBlack">#373230</color>
+
+
+    <drawable name="img_card_drawable">#F2F2F2</drawable>
+    <drawable name="img_card_selected_drawable">#e7e7e7</drawable>
+
+
+    <drawable name="date_card_drawable">#00000000</drawable>
+    <drawable name="date_card_selected_drawable">#e7e7e7</drawable>
+
+    <drawable name="bottom_bar_back">#7b383838</drawable>
+
+</resources>

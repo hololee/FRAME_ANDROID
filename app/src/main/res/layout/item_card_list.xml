@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/mark_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <ImageView
+            android:id="@+id/mark_line"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/circle_mark_line"
+            android:visibility="visible" />
+
+
+        <ImageView
+            android:id="@+id/mark"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/circle_mark"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id='@+id/title'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/mark_box"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="title"
+        android:textColor="@color/moreMidBlack"
+        android:textSize="17sp" />
+
+
+    <TextView
+        android:id='@+id/date'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="15dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="15dp"
+        android:text="1970.01.01"
+        android:textColor="@color/moreMidBlack"
+        android:textSize="12sp" />
+</RelativeLayout>

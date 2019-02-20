@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id='@+id/title'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:ellipsize="end"
+        android:maxLength="25"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="title"
+        android:textColor="@color/moreMidBlack"
+        android:textSize="17sp" />
+
+
+    <TextView
+        android:id='@+id/date'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@+id/count_down"
+        android:layout_toEndOf="@+id/title"
+        android:gravity="right"
+        android:paddingTop="15dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="15dp"
+        android:text="1970.01.01"
+        android:textColor="@color/moreMidBlack"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:id="@+id/count_down"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/number"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:padding="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/selector_arrow_left" />
+
+
+    <TextView
+        android:layout_marginEnd="5dp"
+        android:id='@+id/number'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_toLeftOf="@+id/count_up"
+        android:paddingTop="15dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="15dp"
+        android:text="0"
+        android:textColor="@color/moreMidBlack"
+        android:textSize="13sp" />
+
+
+    <ImageButton
+        android:id="@+id/count_up"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:padding="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/selector_arrow_right" />
+
+
+</RelativeLayout>

@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">FRAME</string>
+    <string name="main_sub">your life in frame</string>
+
+    <string name="on">on</string>
+    <string name="off">off</string>
+
+    <string name="add_title">Please enter title.</string>
+    <string name="add_date">Please choose a date.</string>
+    <string name="add_content">Please write a story.\n(If not completed, it will be displayed as blank.)</string>
+
+    <string name="add_card_btn">ADD</string>
+    <string name="edit_card_btn">SAVE</string>
+    <string name="delete_card_btn">DELETE</string>
+    <string name="alert_add">Photos, titles, and dates are mandatory</string>
+    <string name="alert_delete_card">Card deleted.</string>
+    <string name="alert_add_error">An error has occurred.</string>
+    <string name="alert_approach_edit">It\'s a wrong approach.</string>
+
+    <string name="alert_confirm_email">이메일을 잘 보내셨나요?</string>
+    <string name="alert_email_do">네, 잘보냈습니다.</string>
+    <string name="alert_email_dont">아니요, 다시할께요.</string>
+
+    <string name="alert_selected_count">1장 이상, 20장 이하의 카드만 선택 가능합니다.</string>
+
+    <string name="alert_permission_denied">You cannot use the app if you deny permission.</string>
+
+    <string name="denied_message">Please allow permission in Settings.</string>
+
+    <string name="dialog_title_card_delete">delete</string>
+    <string name="dialog_negative_card_delete">CANCEL</string>
+    <string name="dialog_positive_card_delete">delete</string>
+
+    <string name="dialog_negative">no</string>
+    <string name="dialog_positive">yes</string>
+
+    <string name="title_text_buy">카드를 선택하세요.</string>
+    <string name="title_text_pay">주문정보</string>
+    <string name="title_text_setting">SETTING</string>
+
+
+    <string name="guide_text">카드를 선택하고 하단의 전송버튼을 눌러주세요.</string>
+    <string name="pay_text">카드를 주문하기 위해 결제를 진행합니다.\n아래의 주문자 정보와 주문 정보를 확인해주세요.</string>
+
+    <string name="guide_name">이름</string>
+    <string name="guide_phone">전화번호</string>
+    <string name="guide_address">주소</string>
+    <string name="name_text_hint">이름을 입력해주세요.</string>
+    <string name="phone_text_hint">번호를 입력해주세요.</string>
+    <string name="address_text_hint">주소를 입력해주세요.</string>
+
+    <string name="alert_backup">Since backuped data stored in device storage, make sure to store [MM_backup.zip] of the device storage space on a different storage device when changing the device!</string>
+    <string name="alert_cover_clear">Main cover reset</string>
+    <string name="alert_cover_clear_message">Do you want to reset the main cover?</string>
+
+    <string name="save">save</string>
+    <string name="restore">restore</string>
+    <string name="backup">backup</string>
+    <string name="data_setting_text">DATA</string>
+    <string name="notice_setting_text">POPUP</string>
+    <string name="cover_setting_text">MAIN COVER</string>
+    <string name="cover">select</string>
+    <string name="cover_clear">reset</string>
+    <string name="help_text">HELP</string>
+    <string name="help">show</string>
+    <string name="open_text">OPENSOURCE_LICENSE</string>
+    <string name="open">show</string>
+    <string name="font_text">FONT</string>
+    <string name="font">show</string>
+    <string name="cafe_text">HOMEPAGE</string>
+    <string name="cafe">go</string>
+    <string name="app_text">INFO</string>
+    <string name="app">show</string>
+    <string name="pay">결제하기</string>
+    <string name="delivery_t">배송확인</string>
+    <string name="delivery">바로가기</string>
+
+    <string name="email">cafe.naver.com/framelife</string>
+    <string name="email_sub">클릭시 카페로 연결됩니다.</string>
+
+    <string name="save_text">saved</string>
+
+    <string name="pay_result_text">결제가 완료되었습니다.</string>
+    <string name="pay_result_text2">하단의 주문내역을 확인해주세요.\n배송정보는 카페에서 확인 가능하며 문의사항은 공식 카페를 이용해주세요.</string>
+    <string name="result_back">메인</string>
+    <string name="alert_back">메인으로</string>
+
+    <string name="setting_back_text">Do you want to save the changes?</string>
+    <string name="save_yes">yes</string>
+    <string name="save_no">no</string>
+
+    <string name="alert_info_check">설정에서 주문자 정보를 입력해주세요.</string>
+    <string name="text_buy">카드 배송 신청</string>
+    <string name="text_select">카드 전송</string>
+
+    <string name="send_type_text">배송방법을 선택해주세요.</string>
+    <string name="send_basic">일반</string>
+    <string name="send_premium">등기</string>
+    <string name="total_text">TOTAL</string>
+
+    <string name="text_buy_intro">신청하기</string>
+
+    <string name="alert_backup_success">Backup completed.</string>
+    <string name="alert_restore_success">Restore completed.</string>
+    <string name="confirm_backup">Do you really want to back up?</string>
+    <string name="confirm_restore">Do you really want to restore it? Existing cards are erased and cannot be reversed.</string>
+    <string name="already_backup">An backup file exists. Existing backup files are erased and cannot be restored.</string>
+    <string name="select_backup_storage">Please select another backup medium. To save only internal memory, press the Back button.</string>
+    <string name="no_backup_data">Backup file not found. Place the backup file [MM_backup.zip] on top of internal memory.</string>
+
+    <string name="upload_error">An error occurred. Please try again.</string>
+    <string name="alert_pay">주문정보를 확인하셨나요?</string>
+
+    <string name="order_id_text">주문번호</string>
+    <string name="order_price_text">총 금액</string>
+    <string name="order_type_text">배송 방법</string>
+    <string name="cards_text">카드 금액</string>
+    <string name="delivery_text">배송 금액</string>
+
+    <string name="text_permission_title">다음과 같은 권한이 필요합니다.</string>
+    <string name="text_permission_subtitle">The following permission are required:</string>
+    <string name="p2">Internet</string>
+    <string name="p2_content">Internet access and status check</string>
+    <string name="p1">Storage</string>
+    <string name="p1_content">Use the storage of the device</string>
+    <string name="text_permission">"Permit commission  "</string>
+
+    <string name="help1_title">ADD CARDS</string>
+    <string name="help1_subtitle">You can add a card by clicking the ADD button in the table of contents.</string>
+    <string name="help2_title">FIND CARDS</string>
+    <string name="help2_subtitle">Click on the card you want to go directly. If you want to see the contents again, press the Back button.</string>
+    <string name="help3_title">EDIT, DELETE CARDS</string>
+    <string name="help3_subtitle">Click and hold the card you want to modify or delete from the contents. Go to the modification page of the card.</string>
+    <string name="help4_title">SHARE CARDS</string>
+    <string name="help4_subtitle">Share the cards you want to introduce. You can send cards to other SNS.</string>
+    <string name="help5_title">카드 인화 서비스</string>
+    <string name="help5_subtitle">간직하고 싶은 추억, 간직하고 싶은 순간을 카드로 만나보세요.</string>
+
+
+    <string name="tag0">FRAME 을 이용해주셔서 감사합니다.</string>
+    <string name="tag1">version</string>
+    <string name="tag1_info">1.0.1</string>
+    <string name="tag2">상호</string>
+    <string name="tag2_info">한울</string>
+    <string name="tag3">대표자</string>
+    <string name="tag3_info">이종혁</string>
+    <string name="tag4">사업자 등록번호</string>
+    <string name="tag4_info">687-23-00126</string>
+    <string name="tag5">번호</string>
+    <string name="tag5_info">010-2629-6764</string>
+    <string name="tag6">주소</string>
+    <string name="tag6_info">전라북도 전주시 백제대로 567</string>
+
+    <string name="set_address">주소 설정</string>
+    <string name="hint_address">나머지 주소를 입력해주세요.</string>
+
+    <string name="alert_cancel">주문이 취소 되었습니다.</string>
+
+
+    <string name="font_tag0">FRAME 을 이용해주셔서 감사합니다.</string>
+    <string name="font_tag1">quicksand</string>
+    <string name="font_tag1_info">보기</string>
+    <string name="font_tag2">naver nanum</string>
+    <string name="font_tag2_info">보기</string>
+
+
+    <string name="share">공유하기</string>
+
+    <string name="alert_pay_error">오류가 발생했습니다.\n지속적으로 발생시 공식카페에 문의 부탁드립니다.</string>
+    <string name="alert_pay_confirm">결제가 완료되었습니다.</string>
+
+    <string name="no_save">변경정보가 없습니다.</string>
+
+    <string name="discount">3만원 이상 구매시 배송료는 무료입니다.</string>
+
+    <string name="delivery_type">택배</string>
+    <string name="buy_btn">FRAME 카드 인화 신청\n바로가기</string>
+    <string name="add_card">ADD</string>
+
+    <string name="alert_imagine_bank">가상계좌 발급이 완료되었습니다.</string>
+    <string name="dialog_message_card_delete">You cannot recover a card that you delete. Do you still want to delete it?</string>
+
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id='@+id/top'
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:text="CONTENTS"
+            android:textColor="@color/moreMidBlack"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id='@+id/btn_add'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:padding="3dp"
+            android:text="@string/add_card"
+            android:textColor="@color/add_color"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_above="@+id/buy_banner"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:divider="@null"
+        android:dividerHeight="3dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:scrollbars="none" />
+
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:id = "@+id/buy_banner"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <View
+            android:id = "@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/shortGray" />
+
+
+        <ImageView
+            android:layout_below="@+id/line"
+            android:src="@drawable/buy_banner"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@+id/line"
+            android:textColor="@color/buy_color"
+            android:gravity="center|start"
+            android:id = "@+id/buy_btn"
+            android:text = "@string/buy_btn"
+            android:paddingStart="20dp"
+            android:layout_centerVertical="true"
+            android:textSize = "13sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

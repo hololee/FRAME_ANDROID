@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <RelativeLayout
+        android:id="@+id/img_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/content_box"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/shadow">
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/color_add_img"
+            android:scaleType="centerCrop" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/content_box"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:id='@+id/title_box'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp">
+
+
+            <EditText
+                android:id='@+id/title'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hint="@string/add_title"
+                android:imeOptions="actionDone"
+                android:lines="1"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:textColor="@color/moreDarkBlack"
+                android:textColorHint="@color/textGray"
+                android:textSize="23sp" />
+
+            <View
+                android:id="@+id/content_divider"
+                android:layout_width="50dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/moreMidBlack" />
+
+            <TextView
+                android:id='@+id/date'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/content_divider"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/color_date"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/add_date"
+                android:textColor="@color/moreMidBlack"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id='@+id/content'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/location"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hint="@string/add_content"
+            android:imeOptions="actionDone"
+            android:lines="4"
+            android:maxLines="4"
+            android:textColor="@color/moreDarkBlack"
+            android:textColorHint="@color/textGray"
+            android:textSize="16sp" />
+
+
+        <ImageButton
+            android:id='@+id/location'
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_location"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_marginEnd="5dp"
+            android:id="@+id/page_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/page_edit"
+            android:padding="6dp"
+            android:text="@string/delete_card_btn"
+            android:textColor="@color/delete_color"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id='@+id/page_edit'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:padding="6dp"
+            android:text="@string/edit_card_btn"
+            android:textColor="@color/add_color"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
