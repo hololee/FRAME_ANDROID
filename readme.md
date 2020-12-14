@@ -8,8 +8,8 @@
 
 ![main](https://github.com/hololee/FRAME_IOS/blob/master/screenshot/frame3.jpg?raw=true)
 
-![main_screen](https://github.com/hololee/FRAME_IOS/blob/master/screenshot/frame1.png?raw=true)
+![main_screen](https://github.com/hololee/FRAME_IOS/blob/master/screenshot/frame1.jpg?raw=true)
 
-![main_screen2](https://github.com/hololee/FRAME_IOS/blob/master/screenshot/frame4.png?raw=true)
+![main_screen2](https://github.com/hololee/FRAME_IOS/blob/master/screenshot/frame4.jpg?raw=true)
 
-![main_screen2](https://github.com/hololee/FRAME_IOS/blob/master/screenshot/frame2.png?raw=true)
+![main_screen2](https://github.com/hololee/FRAME_IOS/blob/master/screenshot/frame2.jpg?raw=true)
