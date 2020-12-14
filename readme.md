@@ -6,10 +6,10 @@
   
 또한 카드를 구매하여 오프라인으로 인화된 카드를 만나볼 수 도 있습니다.  
 
-![main](https://github.com/hololee/FRAME_IOS/blob/master/screenshot/frame3.jpg?raw=true)
+![main](https://github.com/hololee/FRAME_ANDROID/blob/master/screenshot/frame3.jpg?raw=true)
 
-![main_screen](https://github.com/hololee/FRAME_IOS/blob/master/screenshot/frame1.jpg?raw=true)
+![main_screen](https://github.com/hololee/FRAFRAME_ANDROIDME_IOS/blob/master/screenshot/frame1.jpg?raw=true)
 
-![main_screen2](https://github.com/hololee/FRAME_IOS/blob/master/screenshot/frame4.jpg?raw=true)
+![main_screen2](https://github.com/hololee/FRAME_ANDROID/blob/master/screenshot/frame4.jpg?raw=true)
 
-![main_screen2](https://github.com/hololee/FRAME_IOS/blob/master/screenshot/frame2.jpg?raw=true)
+![main_screen2](https://github.com/hololee/FRAME_ANDROID/blob/master/screenshot/frame2.jpg?raw=true)
